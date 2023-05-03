@@ -1,0 +1,131 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to right, rgb(243, 6, 121) 30%, rgb(93, 2, 119));
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back {
+    position: absolute;
+    height: 600px;
+    width: 450px;
+    background-color: white;
+    opacity: 0.2;
+    border-radius: 40px;
+    rotate: 7deg;
+    z-index: -1;
+}
+
+.front {
+    position: absolute;
+    height: 600px;
+    width: 450px;
+    background-color: white;
+    opacity: 0.2;
+    border-radius: 40px;
+    z-index: -1;
+}
+
+
+.l-email input {
+    border-radius: 30px;
+    border-style: none;
+    height: 50px;
+    width: 300px;
+    opacity: 0.8;
+}
+
+.l-password input {
+    border-radius: 30px;
+    border-style: none;
+    height: 50px;
+    width: 300px;
+    opacity: 0.8;
+}
+
+#cont .l-sub button{
+    border-radius: 30px;
+    border-style: none;
+    height: 50px;
+    width: 200px;
+    opacity: 0.8;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+#cont .l-sub button:hover{
+    background-color: green;
+}
+
+#cont{
+    display: block;
+    position: absolute;
+}
+
+#cont .l-email{
+    position: absolute;
+    top: -60px;
+}
+
+#cont .l-password{
+    position: relative;
+    top: 27px;
+}
+
+#cont .l-sub{
+    position: relative;
+    top: 67px;
+    left: 50px;
+}
+
+.l-sub button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#cont .l-log{
+    position: relative;
+    top: 80px;
+    left: 15px;
+}
+
+.l-log a{
+    text-decoration: none;
+    position: relative;
+   left: 95px;
+}
+.l-log a:hover{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    left: 85px;
+    font-weight: bolder;
+    opacity: 0.6;
+}
+
+#logo{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background-image: linear-gradient(120deg,red,yellow,cyan,violet);
+    border-radius: 30px;
+    top: -160px;
+    left: 120px;
+}
+
+
+
+
+
+
